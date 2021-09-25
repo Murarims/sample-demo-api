@@ -144,6 +144,6 @@ output application/json
 ]]]></ee:set-payload>
             </ee:message>
         </ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="e726bc23-5445-4754-8e29-1e9c4d9e9691" message="#['flow ended']"/>
+		<logger level="INFO" doc:name="end" doc:id="e726bc23-5445-4754-8e29-1e9c4d9e9691" message="#['flow ended']"/>
     </flow>
 </mule>
